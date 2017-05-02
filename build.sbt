@@ -5,7 +5,7 @@ lazy val root = (project in file("."))
     organization := "com.github.agetakoyaki29",
     name := "mydouble",
     version := "1.0",
-    scalaVersion := "2.11.8",
+    scalaVersion := "2.12.2",
 
     libraryDependencies += scalactic,
     libraryDependencies += scalatest,
@@ -14,5 +14,5 @@ lazy val root = (project in file("."))
   )
 
 // ---- lib ----
-lazy val scalactic = "org.scalactic" %% "scalactic" % "2.2.5"
-lazy val scalatest = "org.scalatest" %% "scalatest" % "2.2.5" % "test"
+lazy val scalactic = "org.scalactic" %% "scalactic" % "3.0.0"
+lazy val scalatest = "org.scalatest" %% "scalatest" % "3.0.0" % "test"
